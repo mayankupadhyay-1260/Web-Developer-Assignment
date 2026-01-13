@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  margin: 0;
+  color: #222;
+}
+
+header {
+  background: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  padding: 8px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #eaeaea;
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.text-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.text-button.blue { color: royalblue; }
+.text-button.red { color: crimson; }
+
+.button {
+  background: royalblue;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #214bb8;
+}
+
+.button.full {
+  width: 100%;
+  text-align: center;
+}
+
+.button.gray {
+  background: #aaa;
+}
+
+.button.small {
+  padding: 6px 12px;
+}
+
+.center-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card label {
+  margin-top: 6px;
+}
+
+.card input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.text-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+  text-decoration: underline;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt {
+  margin-top: 18px;
+}

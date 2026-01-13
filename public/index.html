@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts Manager</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="container header-bar">
+      <h1>Contacts Manager</h1>
+      <a href="form.html" class="button">Add Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <input id="search" type="text" placeholder="Search..." class="search">
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th class="align-right">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="contactsTable">
+        <tr>
+          <td>Sample Name</td>
+          <td>sample@example.com</td>
+          <td>9999999999</td>
+          <td class="align-right">
+            <button class="text-button blue">Edit</button>
+            <button class="text-button red">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
